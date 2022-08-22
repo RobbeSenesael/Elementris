@@ -1,0 +1,335 @@
+body {
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.center{
+    display:  inline-block;
+    margin-left:  auto;
+    margin-right: auto;
+}
+/*
+-----------------
+css aanpassingen van Bootstrap
+-----------------
+*/
+
+.alert-danger, .alert-success {
+    max-width: 45em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 4px;
+}
+
+/*
+-----------------
+eigen klasses
+-----------------
+*/
+.container {
+    margin-top: 5em;
+}
+
+#menu article{
+    background-color: sandybrown;.
+
+}
+
+.hidden {
+    display: none;
+}
+
+.profilepic{
+    width: 75px;
+    height: 75px;
+}
+
+.player{
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 750px;
+    display: inline-block;
+
+}
+
+.playingfield{
+    width: 350px;
+    height: 450px;
+    background-color: #a100ff;
+    border: double #0b2e13;
+}
+
+
+.playerhighscore p{
+    font-size: 1rem;
+
+}
+
+
+
+.buttons {
+    margin-top: 1em;
+}
+
+.center {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.right {
+    float:right;
+}
+
+
+.hero, .skin {
+    border: 2px solid saddlebrown;
+    color: saddlebrown;
+    font-weight: bold;
+    display: inline-block;
+    min-width: 33%;
+    max-width: 33%;
+    margin: 0.5em;
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+.disabled {
+    background-color: slategrey;
+    color: #000;
+}
+
+/*
+-----------------
+backgrounds & background colors via klasses
+-----------------
+*/
+.air {
+    background-image: url("../media/bg-3.jpg");
+    /*
+    source: https://www.pexels.com/photo/air-atmosphere-bright-cloudiness-139446/
+    */
+}
+
+.air article {
+    background-color: lightskyblue;
+}
+
+.earth {
+    background-image: url("../media/bg-2.jpg");
+    /*
+    source: https://www.pexels.com/photo/gray-sands-closeup-photo-943500/
+    */
+}
+
+.earth article {
+    background-color: sandybrown;
+}
+
+.fire {
+    background-image: url("../media/bg-4.jpg");
+    /*
+    source: https://www.pexels.com/photo/bonfire-burning-campfire-fire-270815/
+    */
+}
+
+.fire article {
+    background-color: #FFB534;
+}
+
+.water {
+    background-image: url("../media/bg-1.jpg");
+    /*
+    source: https://www.pexels.com/photo/under-water-photo-735621/
+    */
+}
+
+/*
+-----------------
+id's
+-----------------
+*/
+#currentHero img {
+    margin-left: 1em;
+}
+
+#credits {
+    margin-left: 6em;
+    margin-right: 6em;
+}
+
+#buyMore {
+    text-decoration: underline;
+    color: navy;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+#wrongUserOrPass {
+    max-width: 60em;
+}
+
+/*
+-----------------
+submit buttons
+-----------------
+*/
+
+.air input[type="submit"] {
+    border: 2px solid mediumblue;
+    color: mediumblue;
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+.earth input[type="submit"], .earth a {
+    border: 2px solid saddlebrown;
+    color: saddlebrown;
+    font-weight: bold;
+}
+
+.fire input[type="submit"], .fire a {
+    border: 2px solid darkred;
+    color: darkred;
+    font-weight: bold;
+    margin-left: 1em;
+}
+
+/*
+-----------------
+hover
+-----------------
+*/
+
+.air input[type="submit"]:hover {
+    color: white;
+    background-color: darkblue;
+}
+
+.earth input[type="submit"]:hover, .hero:hover, .skin:hover, .earth a:hover {
+    background-color: rosybrown;
+}
+
+.disabled:hover {
+    background-color: slategrey;
+    color: #000;
+}
+
+.fire input[type="submit"]:hover, .fire a:hover {
+    background-color: #E76100;
+    border: 2px solid darkred;
+}
+
+/*
+-----------------
+other stuff
+-----------------
+*/
+.air h2 {
+    color: white;
+    text-shadow: 1px 3px black;
+}
+
+.fire h1, .fire h2{
+    color: #E76100;
+    background-color: #FFB534;
+}
+
+
+/* Nog te ordenen in deze file */
+#gameOverPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 25%;
+    background-color: #FFB534;
+    border: 5px solid #E76100;
+    padding: 20px;
+}
+
+#gameOverPopup h2{
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#winner{
+    font-size: 1.3rem;
+    font-weight: bold;
+
+}
+
+#gameOverPopup a{
+    float: right;
+    margin-top: 25px;
+}
+
+.landpageButton{
+    height: 100px;
+    width: 150px;
+
+}
+
+.points{
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #E76100;
+}
+
+#startGame .container{
+    margin-top: 0.5em;
+}
+
+#startGame h1{
+    font-size: 3em;
+}
+
+#startGame .player{
+    margin-top: 0.5em;
+    margin-bottom: 0;
+    padding-top: 1em;
+    padding-bottom: 0;
+    height: 620px;
+}
+
+.playerdata{
+    display: inline-block;
+}
+
+.controls {
+    display: inline-block;
+    float: right;
+    margin-bottom: 1em;
+}
+
+/*--------------*/
+.blur{
+    opacity: 0.05;
+}
+ul li {
+    margin-bottom: 20px;
+}
+.box{
+    border: 2px solid forestgreen;
+    border-radius: 5%;
+    padding: 10px;
+    text-align: center;
+}
+
+.power{
+    color: #ffffff;
+    background-color: #E76100;
+
+}
+
+.username{
+    color: #ffffff;
+    background-color: #005cbf;
+}
+/*-------------------*/

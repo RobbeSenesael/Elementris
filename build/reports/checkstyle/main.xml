@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.12">
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\data\H2Connection.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\data\HardcodedRepository.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\data\Repositories.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\data\UserRepository.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\Game.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\Field.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\Roster.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\Tetromino.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\Ability.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\event\Event.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\event\GrowthEvent.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\event\SteamEvent.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\hero\EarthHero.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\hero\FireHero.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\hero\Hero.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\power\EruptionPower.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\power\Power.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\power\SolidifyPower.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\test\TestField.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\test\TestTetromino.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\utils\CollisionDetector.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\utils\EventDetector.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\utils\PointCalculator.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\utils\Position.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\verification\Leaderboard.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\verification\User.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\verification\UserControl.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\jdbcinteractor\JdbcInteractor.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\run\Program.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\utils\ElementrisException.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\utils\StringLiterals.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\vertx\EventBusHandler.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\vertx\Routes.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\vertx\WebAPI.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\vertx\messagehandler\GameLoopHandler.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\vertx\messagehandler\MessageHandler.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\vertx\messagehandler\UserInputHandler.java">
+</file>
+<file name="C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\vertx\messagehandler\VerificationHandler.java">
+</file>
+</checkstyle>

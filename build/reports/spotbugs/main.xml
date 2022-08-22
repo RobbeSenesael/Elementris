@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.1.8" sequence="0" timestamp="1545660803701" analysisTimestamp="1545660803741" release="">
+  <Project projectName="">
+    <Jar>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\build\classes\java\main</Jar>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-web\3.5.4\3d77c8cc8bff92cb2b1015edd377770a3910324b\vertx-web-3.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-auth-common\3.5.4\4fcb4262072aa467039a54b4c6faf9a8819acda4\vertx-auth-common-3.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-core\3.5.4\89d9df77a7d3669504a14a34d1b7247d45b71c05\vertx-core-3.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-jdbc-client\3.5.4\896782c1ae42e67d1fdb1ce537a49b1266066fd9\vertx-jdbc-client-3.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\com.h2database\h2\1.4.197\bb391050048ca8ae3e32451b5a3714ecd3596a46\h2-1.4.197.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\com.zaxxer\HikariCP\3.2.0\6c66db1c636ee90beb4c65fe34abd8ba9396bca6\HikariCP-3.2.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\org.tinylog\tinylog\1.3.5\bfebfda15bc6b5416f292bb062fc66b33fd9f1\tinylog-1.3.5.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\org.mindrot\jbcrypt\0.4\af7e61017f73abb18ac4e036954f9f28c6366c07\jbcrypt-0.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-http2\4.1.19.Final\665bd06aed74b3f5592465dda2e00e3d03f41048\netty-codec-http2-4.1.19.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler\4.1.19.Final\9c784510bc6f81177c4f2c2956144438863cdac4\netty-handler-4.1.19.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.netty\netty-handler-proxy\4.1.19.Final\47c7f7977cea190351962bee726f663eb6488a22\netty-handler-proxy-4.1.19.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver-dns\4.1.19.Final\67a1e265bcbc49160417c81fdf2fdc50ea423727\netty-resolver-dns-4.1.19.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-http\4.1.19.Final\f7edff289d10cc03cdb97ad99e2722f9d61ffdc3\netty-codec-http-4.1.19.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-socks\4.1.19.Final\c84f0540fceccae979d7aeb17b1fa0057c038df9\netty-codec-socks-4.1.19.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec-dns\4.1.19.Final\8b0a7fd3c67e8bd5e3d347f9bb200ae0aaa5c1b7\netty-codec-dns-4.1.19.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.netty\netty-codec\4.1.19.Final\ad4d4309c5b011036ca4df6aca190983d75c6b19\netty-codec-4.1.19.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.netty\netty-transport\4.1.19.Final\4f26f51b86dc1ab19621eb2ac39f1a63682f17f2\netty-transport-4.1.19.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.netty\netty-buffer\4.1.19.Final\65abf40a28ce4f52dd763d0b4f740066a87b5c9e\netty-buffer-4.1.19.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.netty\netty-resolver\4.1.19.Final\7d97be8b3fb195f9d94d9a4afcadef25e08bde2\netty-resolver-4.1.19.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.netty\netty-common\4.1.19.Final\b281916c11d3eeec5e839677ec4f2eb9d7586928\netty-common-4.1.19.Final.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.9.6\cfa4f316351a91bfd95cb0644c6a2c95f52db1fc\jackson-databind-2.9.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.9.6\4e393793c37c77e042ccc7be5a914ae39251b365\jackson-core-2.9.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-sql-common\3.5.4\a07e660378b0ce385712baba5a1d19434417acd8\vertx-sql-common-3.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\com.mchange\c3p0\0.9.5.2\5f86cb6130bc6e8475615ed82d5b5e6fb226a86a\c3p0-0.9.5.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\io.vertx\vertx-bridge-common\3.5.4\327e404ed3288e5c38e3720b26fb21d6f419f73b\vertx-bridge-common-3.5.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\org.slf4j\slf4j-api\1.7.25\da76ca59f6a57ee3102f8f9bd9cee742973efa8a\slf4j-api-1.7.25.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.9.0\7c10d545325e3a6e72e06381afe469fd40eb701\jackson-annotations-2.9.0.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\ruben\.gradle\caches\modules-2\files-2.1\com.mchange\mchange-commons-java\0.2.11\2a6a6c1fe25f28f5a073171956ce6250813467ef\mchange-commons-java-0.2.11.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\data\H2Connection.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\data\HardcodedRepository.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\data\Repositories.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\data\UserRepository.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\Game.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\Ability.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\event\Event.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\event\GrowthEvent.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\event\SteamEvent.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\hero\EarthHero.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\hero\FireHero.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\hero\Hero.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\power\EruptionPower.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\power\Power.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\ability\power\SolidifyPower.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\Field.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\Roster.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\test\TestField.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\test\TestTetromino.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\Tetromino.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\utils\CollisionDetector.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\utils\EventDetector.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\utils\PointCalculator.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\grid\utils\Position.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\verification\Leaderboard.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\verification\User.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\domain\verification\UserControl.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\jdbcinteractor\JdbcInteractor.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\run\Program.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\utils\ElementrisException.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\utils\StringLiterals.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\vertx\EventBusHandler.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\vertx\messagehandler\GameLoopHandler.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\vertx\messagehandler\MessageHandler.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\vertx\messagehandler\UserInputHandler.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\vertx\messagehandler\VerificationHandler.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\vertx\Routes.java</SrcDir>
+    <SrcDir>C:\Users\ruben\Documents\cursus\2TI\S3\Project\Project II Tetris\GitRepo\groep-27\src\main\java\vertx\WebAPI.java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Mon, 24 Dec 2018 15:13:23 +0100" total_classes="38" referenced_classes="120" total_bugs="0" total_size="1052" num_packages="15" java_version="1.8.0_161" vm_version="25.161-b12" cpu_seconds="4.67" clock_seconds="3.83" peak_mbytes="61.16" alloc_mbytes="247.50" gc_seconds="0.28">
+    <FileStats path="data/H2Connection.java" bugCount="0" size="13"/>
+    <FileStats path="data/HardcodedRepository.java" bugCount="0" size="31"/>
+    <FileStats path="data/Repositories.java" bugCount="0" size="13"/>
+    <FileStats path="data/UserRepository.java" bugCount="0" size="63"/>
+    <FileStats path="domain/Game.java" bugCount="0" size="80"/>
+    <FileStats path="domain/grid/Field.java" bugCount="0" size="123"/>
+    <FileStats path="domain/grid/Roster.java" bugCount="0" size="39"/>
+    <FileStats path="domain/grid/Tetromino.java" bugCount="0" size="35"/>
+    <FileStats path="domain/grid/ability/Ability.java" bugCount="0" size="4"/>
+    <FileStats path="domain/grid/ability/event/Event.java" bugCount="0" size="18"/>
+    <FileStats path="domain/grid/ability/event/GrowthEvent.java" bugCount="0" size="16"/>
+    <FileStats path="domain/grid/ability/event/SteamEvent.java" bugCount="0" size="8"/>
+    <FileStats path="domain/grid/ability/hero/EarthHero.java" bugCount="0" size="5"/>
+    <FileStats path="domain/grid/ability/hero/FireHero.java" bugCount="0" size="5"/>
+    <FileStats path="domain/grid/ability/hero/Hero.java" bugCount="0" size="12"/>
+    <FileStats path="domain/grid/ability/power/EruptionPower.java" bugCount="0" size="26"/>
+    <FileStats path="domain/grid/ability/power/Power.java" bugCount="0" size="5"/>
+    <FileStats path="domain/grid/ability/power/SolidifyPower.java" bugCount="0" size="9"/>
+    <FileStats path="domain/grid/test/TestField.java" bugCount="0" size="22"/>
+    <FileStats path="domain/grid/test/TestTetromino.java" bugCount="0" size="14"/>
+    <FileStats path="domain/grid/utils/CollisionDetector.java" bugCount="0" size="22"/>
+    <FileStats path="domain/grid/utils/EventDetector.java" bugCount="0" size="69"/>
+    <FileStats path="domain/grid/utils/PointCalculator.java" bugCount="0" size="32"/>
+    <FileStats path="domain/grid/utils/Position.java" bugCount="0" size="29"/>
+    <FileStats path="domain/verification/Leaderboard.java" bugCount="0" size="17"/>
+    <FileStats path="domain/verification/User.java" bugCount="0" size="56"/>
+    <FileStats path="domain/verification/UserControl.java" bugCount="0" size="22"/>
+    <FileStats path="jdbcinteractor/JdbcInteractor.java" bugCount="0" size="41"/>
+    <FileStats path="run/Program.java" bugCount="0" size="24"/>
+    <FileStats path="utils/ElementrisException.java" bugCount="0" size="7"/>
+    <FileStats path="utils/StringLiterals.java" bugCount="0" size="8"/>
+    <FileStats path="vertx/EventBusHandler.java" bugCount="0" size="15"/>
+    <FileStats path="vertx/Routes.java" bugCount="0" size="9"/>
+    <FileStats path="vertx/WebAPI.java" bugCount="0" size="12"/>
+    <FileStats path="vertx/messagehandler/GameLoopHandler.java" bugCount="0" size="22"/>
+    <FileStats path="vertx/messagehandler/MessageHandler.java" bugCount="0" size="12"/>
+    <FileStats path="vertx/messagehandler/UserInputHandler.java" bugCount="0" size="49"/>
+    <FileStats path="vertx/messagehandler/VerificationHandler.java" bugCount="0" size="65"/>
+    <PackageStats package="data" total_bugs="0" total_types="4" total_size="120">
+      <ClassStats class="data.H2Connection" sourceFile="H2Connection.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="data.HardcodedRepository" sourceFile="HardcodedRepository.java" interface="false" size="31" bugs="0"/>
+      <ClassStats class="data.Repositories" sourceFile="Repositories.java" interface="false" size="13" bugs="0"/>
+      <ClassStats class="data.UserRepository" sourceFile="UserRepository.java" interface="false" size="63" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="domain" total_bugs="0" total_types="1" total_size="80">
+      <ClassStats class="domain.Game" sourceFile="Game.java" interface="false" size="80" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="domain.grid" total_bugs="0" total_types="3" total_size="197">
+      <ClassStats class="domain.grid.Field" sourceFile="Field.java" interface="false" size="123" bugs="0"/>
+      <ClassStats class="domain.grid.Roster" sourceFile="Roster.java" interface="false" size="39" bugs="0"/>
+      <ClassStats class="domain.grid.Tetromino" sourceFile="Tetromino.java" interface="false" size="35" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="domain.grid.ability" total_bugs="0" total_types="1" total_size="4">
+      <ClassStats class="domain.grid.ability.Ability" sourceFile="Ability.java" interface="false" size="4" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="domain.grid.ability.event" total_bugs="0" total_types="3" total_size="42">
+      <ClassStats class="domain.grid.ability.event.Event" sourceFile="Event.java" interface="false" size="18" bugs="0"/>
+      <ClassStats class="domain.grid.ability.event.GrowthEvent" sourceFile="GrowthEvent.java" interface="false" size="16" bugs="0"/>
+      <ClassStats class="domain.grid.ability.event.SteamEvent" sourceFile="SteamEvent.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="domain.grid.ability.hero" total_bugs="0" total_types="3" total_size="22">
+      <ClassStats class="domain.grid.ability.hero.EarthHero" sourceFile="EarthHero.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="domain.grid.ability.hero.FireHero" sourceFile="FireHero.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="domain.grid.ability.hero.Hero" sourceFile="Hero.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="domain.grid.ability.power" total_bugs="0" total_types="3" total_size="40">
+      <ClassStats class="domain.grid.ability.power.EruptionPower" sourceFile="EruptionPower.java" interface="false" size="26" bugs="0"/>
+      <ClassStats class="domain.grid.ability.power.Power" sourceFile="Power.java" interface="false" size="5" bugs="0"/>
+      <ClassStats class="domain.grid.ability.power.SolidifyPower" sourceFile="SolidifyPower.java" interface="false" size="9" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="domain.grid.test" total_bugs="0" total_types="2" total_size="36">
+      <ClassStats class="domain.grid.test.TestField" sourceFile="TestField.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="domain.grid.test.TestTetromino" sourceFile="TestTetromino.java" interface="false" size="14" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="domain.grid.utils" total_bugs="0" total_types="4" total_size="152">
+      <ClassStats class="domain.grid.utils.CollisionDetector" sourceFile="CollisionDetector.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="domain.grid.utils.EventDetector" sourceFile="EventDetector.java" interface="false" size="69" bugs="0"/>
+      <ClassStats class="domain.grid.utils.PointCalculator" sourceFile="PointCalculator.java" interface="false" size="32" bugs="0"/>
+      <ClassStats class="domain.grid.utils.Position" sourceFile="Position.java" interface="false" size="29" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="domain.verification" total_bugs="0" total_types="3" total_size="95">
+      <ClassStats class="domain.verification.Leaderboard" sourceFile="Leaderboard.java" interface="false" size="17" bugs="0"/>
+      <ClassStats class="domain.verification.User" sourceFile="User.java" interface="false" size="56" bugs="0"/>
+      <ClassStats class="domain.verification.UserControl" sourceFile="UserControl.java" interface="false" size="22" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="jdbcinteractor" total_bugs="0" total_types="1" total_size="41">
+      <ClassStats class="jdbcinteractor.JdbcInteractor" sourceFile="JdbcInteractor.java" interface="false" size="41" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="run" total_bugs="0" total_types="1" total_size="24">
+      <ClassStats class="run.Program" sourceFile="Program.java" interface="false" size="24" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="utils" total_bugs="0" total_types="2" total_size="15">
+      <ClassStats class="utils.ElementrisException" sourceFile="ElementrisException.java" interface="false" size="7" bugs="0"/>
+      <ClassStats class="utils.StringLiterals" sourceFile="StringLiterals.java" interface="false" size="8" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="vertx" total_bugs="0" total_types="3" total_size="36">
+      <ClassStats class="vertx.EventBusHandler" sourceFile="EventBusHandler.java" interface="false" size="15" bugs="0"/>
+      <ClassStats class="vertx.Routes" sourceFile="Routes.java" interface="false" size="9" bugs="0"/>
+      <ClassStats class="vertx.WebAPI" sourceFile="WebAPI.java" interface="false" size="12" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="vertx.messagehandler" total_bugs="0" total_types="4" total_size="148">
+      <ClassStats class="vertx.messagehandler.GameLoopHandler" sourceFile="GameLoopHandler.java" interface="false" size="22" bugs="0"/>
+      <ClassStats class="vertx.messagehandler.MessageHandler" sourceFile="MessageHandler.java" interface="false" size="12" bugs="0"/>
+      <ClassStats class="vertx.messagehandler.UserInputHandler" sourceFile="UserInputHandler.java" interface="false" size="49" bugs="0"/>
+      <ClassStats class="vertx.messagehandler.VerificationHandler" sourceFile="VerificationHandler.java" interface="false" size="65" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="1186" invocations="801" avgMicrosecondsPerInvocation="1480" maxMicrosecondsPerInvocation="10016" standardDeviationMicrosecondsPerInvocation="988"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="403" invocations="798" avgMicrosecondsPerInvocation="505" maxMicrosecondsPerInvocation="50166" standardDeviationMicrosecondsPerInvocation="2386"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.TypeDataflowFactory" totalMilliseconds="114" invocations="211" avgMicrosecondsPerInvocation="543" maxMicrosecondsPerInvocation="21396" standardDeviationMicrosecondsPerInvocation="1866"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="89" invocations="748" avgMicrosecondsPerInvocation="119" maxMicrosecondsPerInvocation="4631" standardDeviationMicrosecondsPerInvocation="433"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="89" invocations="120" avgMicrosecondsPerInvocation="742" maxMicrosecondsPerInvocation="9689" standardDeviationMicrosecondsPerInvocation="1557"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.IsNullValueDataflowFactory" totalMilliseconds="82" invocations="198" avgMicrosecondsPerInvocation="415" maxMicrosecondsPerInvocation="13086" standardDeviationMicrosecondsPerInvocation="1085"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.ValueNumberDataflowFactory" totalMilliseconds="81" invocations="217" avgMicrosecondsPerInvocation="375" maxMicrosecondsPerInvocation="9665" standardDeviationMicrosecondsPerInvocation="1055"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="78" invocations="120" avgMicrosecondsPerInvocation="651" maxMicrosecondsPerInvocation="6898" standardDeviationMicrosecondsPerInvocation="1161"/>
+      <ClassProfile name="edu.umd.cs.findbugs.ba.npe.NullDerefAndRedundantComparisonFinder" totalMilliseconds="67" invocations="197" avgMicrosecondsPerInvocation="344" maxMicrosecondsPerInvocation="9747" standardDeviationMicrosecondsPerInvocation="834"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="67" invocations="477" avgMicrosecondsPerInvocation="140" maxMicrosecondsPerInvocation="3518" standardDeviationMicrosecondsPerInvocation="311"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.UnconditionalValueDerefDataflowFactory" totalMilliseconds="65" invocations="198" avgMicrosecondsPerInvocation="328" maxMicrosecondsPerInvocation="12797" standardDeviationMicrosecondsPerInvocation="1045"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="62" invocations="199" avgMicrosecondsPerInvocation="312" maxMicrosecondsPerInvocation="44743" standardDeviationMicrosecondsPerInvocation="3161"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.CFGFactory" totalMilliseconds="56" invocations="198" avgMicrosecondsPerInvocation="283" maxMicrosecondsPerInvocation="10843" standardDeviationMicrosecondsPerInvocation="841"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.JavaClassAnalysisEngine" totalMilliseconds="47" invocations="185" avgMicrosecondsPerInvocation="257" maxMicrosecondsPerInvocation="18139" standardDeviationMicrosecondsPerInvocation="1403"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>

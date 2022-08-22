@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_tetris" default="compile.module.tetris">
+  <dirname property="module.tetris.basedir" file="${ant.file.module_tetris}"/>
+  
+  <property name="module.jdk.home.tetris" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.tetris" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.tetris" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.tetris" value="-encoding UTF-8 -source 11 -target 11 ${compiler.args}"/>
+  
+  <property name="tetris.output.dir" value="${module.tetris.basedir}/../../out/production/Tetris"/>
+  <property name="tetris.testoutput.dir" value="${module.tetris.basedir}/../../out/test/Tetris"/>
+  
+  <path id="tetris.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="tetris.module.production.classpath">
+    <path refid="${module.jdk.classpath.tetris}"/>
+  </path>
+  
+  <path id="tetris.runtime.production.module.classpath">
+    <pathelement location="${tetris.output.dir}"/>
+  </path>
+  
+  <path id="tetris.module.classpath">
+    <path refid="${module.jdk.classpath.tetris}"/>
+    <pathelement location="${tetris.output.dir}"/>
+  </path>
+  
+  <path id="tetris.runtime.module.classpath">
+    <pathelement location="${tetris.testoutput.dir}"/>
+    <pathelement location="${tetris.output.dir}"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.tetris">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.tetris">
+    <patternset refid="excluded.from.module.tetris"/>
+  </patternset>
+  
+  
+  <target name="compile.module.tetris" depends="compile.module.tetris.production,compile.module.tetris.tests" description="Compile module Tetris"/>
+  
+  <target name="compile.module.tetris.production" depends="register.custom.compilers" description="Compile module Tetris; production classes"/>
+  
+  <target name="compile.module.tetris.tests" depends="register.custom.compilers,compile.module.tetris.production" description="compile module Tetris; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.tetris" description="cleanup module">
+    <delete dir="${tetris.output.dir}"/>
+    <delete dir="${tetris.testoutput.dir}"/>
+  </target>
+</project>

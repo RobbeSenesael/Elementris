@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>User statistics</title>
+    <meta name="Author" content="Groep27"/>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../../css/screen.css" type="text/css"/>
+    <link rel="stylesheet" href="../../css/reset.css" type="text/css"/>
+    <link rel="stylesheet" href="../../css/bootstrap-4.1.3/dist/css/bootstrap.min.css" type="text/css"/>
+</head>
+<body class="air">
+<div class="container">
+
+    <article class="jumbotron">
+        <h2 class="font-weight-bold center display-3">ElemenT-tris</h2>
+        <label class="center">Welcome <strong>&lt;user&gt;</strong>, here you can customize your hero and check your
+            stats!</label>
+        <div class="alert alert-success alert-dismissible fade show hidden" role="alert" id="success">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <p><strong>Success --- </strong> Hero saved successfully</p>
+        </div>
+        <div class="alert alert-danger alert-dismissible fade show hidden" role="alert" id="errorOccured">
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+        <p><strong>An error occured --- </strong> Something went wrong, please try again</p>
+    </div>
+        <fieldset class="form-group text-center">
+            <label class="col-sm-3" id="wins">Wins: <strong>xxx</strong></label>
+            <label class="col-sm-3" id="ratio">W/L ratio: <strong>x.x</strong>%</label>
+            <label class="col-sm-3" id="loss">Losses: <strong>xxx</strong></label>
+        </fieldset>
+        <label id="level">Your level: <strong>x</strong></label><br/>
+        <fieldset id="currentHero">
+            <p>
+                <label class="col-sm-2">Your current hero:</label>
+                <a href="#"><img src="../../media/smallPlaceholder.png" height="90" width="120" alt="Your current Hero"/></a>
+                <label id="credits">Credits: <strong>xx</strong></label>
+                <a href="#" id="buyMore">Buy more</a>
+            </p>
+            <p>
+                <label class="col-sm-2">Current skin:</label>
+                <a href="#"><img src="../../media/smallPlaceholder.png" height="90" width="120" alt="Your current Skin"/></a>
+            </p>
+
+        </fieldset>
+        <fieldset class="form-group">
+            <a  href="#" class="btn btn-outline-primary" id="save">Save hero</a>
+            <a href="welcome.html" class="btn btn-outline-primary right" id="returnToPage">Return to your page</a>
+        </fieldset>
+    </article>
+</div>
+<script src="../../js/jquery-3.1.1.min.js"></script>
+<script src="../../css/bootstrap-4.1.3/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>

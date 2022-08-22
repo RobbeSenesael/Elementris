@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="domain.grid.FieldTest" tests="19" skipped="0" failures="0" errors="0" timestamp="2018-12-24T12:49:14" hostname="Laptop-Ruben" time="0.047">
+  <properties/>
+  <testcase name="moveLeftOutOfBounds" classname="domain.grid.FieldTest" time="0.015"/>
+  <testcase name="pointCalculatorTwoRows" classname="domain.grid.FieldTest" time="0.002"/>
+  <testcase name="dropOutOfBounds" classname="domain.grid.FieldTest" time="0.002"/>
+  <testcase name="moveLeftTetromino" classname="domain.grid.FieldTest" time="0.001"/>
+  <testcase name="moveRightTetromino" classname="domain.grid.FieldTest" time="0.002"/>
+  <testcase name="pointCalculatorTwoCalculations" classname="domain.grid.FieldTest" time="0.003"/>
+  <testcase name="moveRightOutOfBounds" classname="domain.grid.FieldTest" time="0.001"/>
+  <testcase name="eventRoundCalculation" classname="domain.grid.FieldTest" time="0.006"/>
+  <testcase name="merge" classname="domain.grid.FieldTest" time="0.001"/>
+  <testcase name="eventDetectorSteam" classname="domain.grid.FieldTest" time="0.001"/>
+  <testcase name="pointCalculatorOneRow" classname="domain.grid.FieldTest" time="0.0"/>
+  <testcase name="eventGrowthCheckOnPosition" classname="domain.grid.FieldTest" time="0.001"/>
+  <testcase name="eventDetectorNull" classname="domain.grid.FieldTest" time="0.001"/>
+  <testcase name="setTetromino" classname="domain.grid.FieldTest" time="0.0"/>
+  <testcase name="eventDetectorGrowth" classname="domain.grid.FieldTest" time="0.001"/>
+  <testcase name="eventGrowthCheckNotOnPosition" classname="domain.grid.FieldTest" time="0.001"/>
+  <testcase name="heroPowerEarth" classname="domain.grid.FieldTest" time="0.003"/>
+  <testcase name="dropTetromino" classname="domain.grid.FieldTest" time="0.001"/>
+  <testcase name="eventDetectorSteamOtherScenario" classname="domain.grid.FieldTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
